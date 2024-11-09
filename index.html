@@ -3,42 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>odin-landing-page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<header>
-    <h1> Header Logo</h1>
-    <div>
-        <a href="" target="_blank" rel="noopener no referrer"title="">header link one</a>
-        <a href="" target="_blank" rel="noopener no referrer"title="">header link one</a>
-        <a href="" target="_blank" rel="noopener no referrer"title="">header link one</a>
-    </div>
-</header>
+
 <body>
-    <h1>This website is awesome</h1>
-    <p> This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-    <button>Sign up</button> 
-    <p>this is a placeholder for an image></p>
-    <section>
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#">Header logo</a></div>
+            <ul class="navlist">
+                <li><a href="" target="_blank" rel="noopener no referrer"title="">header link one</a></li>
+                <li><a href="" target="_blank" rel="noopener no referrer"title="">header link two</a></li>
+                <li><a href="" target="_blank" rel="noopener no referrer"title="">header link three</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="mainintro">
+        <div class="signup">
+            <h1>This website is awesome</h1>
+            <p> This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+            <button ID="button"><a href="#" ID="signup">Sign up</a></button>
+        </div>
+        <p>this is a placeholder for an image</p>
+    </div>
+    <section class="random">
         <h1>Some random information.</h1>
-        <div></div>
-        <p>this is some subtext under an illustration or image</p>
-        <div></div>
-        <p>this is some subtext under an illustration or image</p>
-        <div></div>
-        <p>this is some subtext under an illustration or image</p>
-        <div></div>
-        <p>this is some subtext under an illustration or image</p>
+        <div>
+            <div>
+                <p ID="boxyshape"></p>
+                <p ID="boxyshapecc">this is some subtext under an illustration or image</p>
+            </div>
+            <div>
+                <p ID="boxyshape"></p>
+                <p ID="boxyshapecc">this is some subtext under an illustration or image</p>
+            </div>
+            <div>
+                <p ID="boxyshape"></p>
+                <p ID="boxyshapecc">this is some subtext under an illustration or image</p>
+            </div>
+            <div>
+                <p ID="boxyshape"></p>
+                <p ID="boxyshapecc">this is some subtext under an illustration or image</p>
+            </div>
+        </div>
     </section>
-    <section>
-        <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who know? All I know is it looks nice</p>
-        <p>-Thor, God of Thunder</p>
+    <section class="quotebox">
+        <div>
+            <p ID="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is it looks nice.</p>
+            <p class="citation">-Thor, God of Thunder</p>
+        </div>
     </section>
-    <section>
-        <h3> Call to action! It's time</h3>
-        <p>Sign up for our product by clicking that button right over there!</p>
-        <button>Sign up</button>
+    <section class="action">
+        <div>
+            <h3> Call to action! It's time</h3>
+            <p>Sign up for our product by clicking that button right over there!</p>
+        </div>
+        <button ID="button"><a href="#" ID="signup">Sign up</a></button>
     </section>
 </body>
+
 <footer>
     <p>Copyright &copy; The Odin Project 2021</p>
 </footer>
